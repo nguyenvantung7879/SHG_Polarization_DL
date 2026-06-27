@@ -1,5 +1,0 @@
-Method,TrainingCondition,N,Time_sec_Mean,Time_sec_SD,FiberPeak_deg_Mean,FiberPeak_deg_SD,FiberTotalVariation_Mean,FiberTotalVariation_SD,PeptidePitchPeak_deg_Mean,PeptidePitchPeak_deg_SD,PitchTotalVariation_Mean,PitchTotalVariation_SD,FiberTVRatio,PitchTVRatio
-Pixel-wise theoretical fitting,Conventional fitting,20,112.95,13.60,57.19,38.34,2549.66,1701.00,49.26,0.87,1739.52,668.55,1.00,1.00
-Pretrained-only model,Synthetic pretraining only,20,0.04,0.07,69.42,18.84,1885.32,583.09,49.23,2.66,1051.04,285.25,0.74,0.60
-Non-pretrained transfer model,64 experimental inputs only,20,0.05,0.05,18.65,27.75,1883.32,478.76,43.19,1.48,718.77,170.75,0.74,0.41
-Proposed physics-pretrained transfer model,Synthetic pretraining + 64 experimental inputs,20,0.05,0.03,59.39,32.14,1879.59,483.21,49.77,1.09,1209.46,442.16,0.74,0.70
