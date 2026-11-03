@@ -24,10 +24,23 @@ Synthetic P-SHG stacks + angle labels -> synthetic-pretrained network
 
 This is the archived manuscript figure. Its regenerative inputs were clipped per polarization frame at the 90th percentile and rescaled by 13; the bone and cartilage inputs were not processed this way. Interpret the comparison with this preprocessing difference in mind. Histogram peaks are descriptive summaries, not pixel-wise accuracy measurements.
 
+## Paper figures
+
+The complete set of six main-paper figures is available in [figure/](figure/), at the original supplied PNG resolution:
+
+| Figure | File |
+|---|---|
+| Figure 1 | [Figure 1.png](figure/Figure%201.png) |
+| Figure 2 | [Figure 2.png](figure/Figure%202.png) |
+| Figure 3 | [Figure 3.png](figure/Figure%203.png) |
+| Figure 4 | [Figure 4.png](figure/Figure%204.png) |
+| Figure 5 | [Figure 5.png](figure/Figure%205.png) |
+| Figure 6 | [Figure 6.png](figure/Figure%206.png) |
+
 ## Contents
 
 ```text
-figure/                        Figure 1 and Figure 6 manuscript images
+figure/                        Complete main-paper figures: Figure 1.png ... Figure 6.png
 model/                         Three trained MATLAB network checkpoints
 function/                      Inference, forward-model, and plotting helpers
 data_test/
